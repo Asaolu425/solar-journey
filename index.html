@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Solar Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">The Solar Journey</h1>
+    <nav class="links">
+      <a href="#steps">Steps</a>
+      <a href="#services">Services</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Going solar, one step at a time</h2>
+    <p>A simple guide from understanding solar to getting a system installed.</p>
+    <a href="#calculator" class="btn">Estimate my system</a>
+  </section>
+
+  <section id="steps" class="section">
+    <h2>The journey</h2>
+    <div class="grid">
+      <div class="card"><h3>1. Learn</h3><p>Understand panels, inverters, and batteries.</p></div>
+      <div class="card"><h3>2. Estimate</h3><p>Work out the system size you need.</p></div>
+      <div class="card"><h3>3. Install</h3><p>Get your system professionally installed.</p></div>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card"><h3>Installation</h3><p>Home and business solar setup.</p></div>
+      <div class="card"><h3>Maintenance</h3><p>Regular checks to keep power steady.</p></div>
+      <div class="card"><h3>Advice</h3><p>Honest guidance on what to buy.</p></div>
+    </div>
+  </section>
+
+  <section id="calculator" class="section">
+    <h2>System size calculator</h2>
+    <form id="calc-form">
+      <label for="usage">Daily energy use (kWh)</label>
+      <input type="number" id="usage" placeholder="e.g. 10">
+      <button type="submit" class="btn">Calculate</button>
+    </form>
+    <p id="result"></p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your name">
+      <input type="email" placeholder="Your email">
+      <textarea rows="4" placeholder="Your message"></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 The Solar Journey</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
